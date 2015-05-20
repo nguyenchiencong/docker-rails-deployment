@@ -31,7 +31,7 @@ production:
   pool: 5
   timeout: 5000
   encoding: unicode
-  database: <%= ENV['PG_ENV_POSTGRES_DATABASE'] %>
+  database: <%= ENV['PG_ENV_POSTGRES_DB'] %>
   username: <%= ENV['PG_ENV_POSTGRES_USER'] %>
   password: <%= ENV['PG_ENV_POSTGRES_PASSWORD'] %>
   host: <%= ENV['PG_PORT_5432_TCP_ADDR'] %>
