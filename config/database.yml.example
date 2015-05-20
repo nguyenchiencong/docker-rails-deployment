@@ -21,14 +21,17 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  <<: *default
+  <<: *common
   database: xxxxxxxxxxxx_test
   prepared_statements: false
 
 production:
-  <<: *default
+  <<: *common
   adapter: postgresql
   pool: 5
   timeout: 5000
   encoding: unicode
-  database: docker_rails_production
+  database: <%= ENV['PG_ENV_POSTGRES_DATABASE'] %>
+  username: <%= ENV['PG_ENV_POSTGRES_USER'] %>
+  password: <%= ENV['PG_ENV_POSTGRES_PASSWORD'] %>
+  host: <%= ENV['PG_PORT_5432_TCP_ADDR'] %>
