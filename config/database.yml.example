@@ -31,7 +31,4 @@ production:
   pool: 5
   timeout: 5000
   encoding: unicode
-  database: <%= ENV['PG_ENV_PGDATABASE'] %>
-  username: <%= ENV['PG_ENV_PGUSER'] %>
-  password: <%= ENV['PG_ENV_PGPASSWORD'] %>
-  host: <%= ENV['PG_PORT_5432_TCP_ADDR'] %>
+  database: docker_rails_production
