@@ -1,0 +1,96 @@
+var/*
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+.sass-cache/
+rails_best_practices_output.html
+brakeman.html
+coverage.data
+coverage/
+public/uploads/
+dump.rdb
+
+# Generated files
+log/*
+public/stylesheets/*.css
+
+#Documentation
+.yardoc/
+doc/
+
+# Generated files
+log/*
+spec/fixtures/*.y*ml
+spec/fixtures/*.fixture.*
+coverage/*
+xml_locales/*
+
+# Configuration files
+config/app_config.yml
+config/app.yml
+# config/database.yml
+# config/application.yml
+config/script_server*.yml
+config/fb_config.yml
+config/oauth_keys.yml
+# config/initializers/secret_token.rb
+config/redis.conf
+config/deploy_config.yml
+.bundle
+vendor/bundle/*
+vendor/cache/*
+.rvmrc_custom
+
+# Uploaded files and local files
+public/uploads/*
+public/stylesheets/*
+#public/assets/*
+public/source.tar*
+tmp/**/*
+tmp/*
+*.sqlite3
+*.sql
+
+# Temporary files of every sort
+.sass-cache/*
+.DS_Store
+.idea
+.redcar
+.rvmrc
+.stgit*
+*.swap
+*.swo
+*.swp
+*.rdb
+*~
+bin/*
+nbproject
+patches-*
+capybara-*.html
+dump.rdb
+
+# Scraping Logs
+*.txt
+
+# Scraping csv
+*.csv
+
+
+#
+.env
+.env.example
+.metrics
+
+*.hprof
+
+*.log
+*.dump
+*.dat
+
+.zeus.sock
+
+.vagrant
+Vagrantfile
+
+translations.yml
